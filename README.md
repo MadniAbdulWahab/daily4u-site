@@ -1,13 +1,13 @@
 ## Daily4U Drupal Website
 
-Daily4U is a Drupal-based business website built on top of the **January** theme demo and customized to represent the Daily4U brand, services, case studies, and delivery approach. The site presents a clean, modern consulting/technology services presence with a strong homepage narrative and dedicated pages for services, team, case studies, and contact.
+Daily4U is a Drupal-based business website built on top of the **January** theme and customized to represent the Daily4U brand, services, case studies, and delivery approach. The site presents a clean, modern consulting/technology services presence with a strong homepage narrative and dedicated pages for services, team, case studies, and contact.
 
 This repository contains the full Drupal project (codebase + configuration) and local development setup via **DDEV**.
 
 ---
 
 ### Achievement Summary (What I Made)
-- Customized the **January** Drupal theme demo into a branded, portfolio-ready website for **Daily4U**.
+- Customized the **January** Drupal theme into a branded, portfolio-ready website for **Daily4U**.
 - Designed and implemented a **conversion-oriented homepage flow** (hero → trust → offerings → proof → process CTA).
 - Built a structured set of **core pages** (Services, Case Studies, Team, How We Work, Contact) with consistent layout and reusable blocks.
 - Uploaded a **reproducible local development workflow** using **DDEV** (Docker) with Composer + Drush commands for onboarding.
