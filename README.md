@@ -10,8 +10,8 @@ This repository contains the full Drupal project (codebase + configuration) and 
 - Customized the **January** Drupal theme demo into a branded, portfolio-ready website for **Daily4U**.
 - Designed and implemented a **conversion-oriented homepage flow** (hero → trust → offerings → proof → process CTA).
 - Built a structured set of **core pages** (Services, Case Studies, Team, How We Work, Contact) with consistent layout and reusable blocks.
-- Delivered a **reproducible local development workflow** using **DDEV** (Docker) with Composer + Drush commands for onboarding.
-- Documented the project with a clear README and a screenshot structure suitable for demos, handover, and portfolio presentation.
+- Uploaded a **reproducible local development workflow** using **DDEV** (Docker) with Composer + Drush commands for onboarding.
+- Documented the project with a clear README and a screenshot structure suitable for demos.
 
 ---
 
