@@ -6,7 +6,7 @@ This repository contains the full Drupal project (codebase + configuration) and 
 
 ---
 
-### Achievement Summary (What I Delivered)
+### Achievement Summary (What I Made)
 - Customized the **January** Drupal theme demo into a branded, portfolio-ready website for **Daily4U**.
 - Designed and implemented a **conversion-oriented homepage flow** (hero → trust → offerings → proof → process CTA).
 - Built a structured set of **core pages** (Services, Case Studies, Team, How We Work, Contact) with consistent layout and reusable blocks.
