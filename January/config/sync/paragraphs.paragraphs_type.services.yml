@@ -1,0 +1,10 @@
+uuid: e4d50802-4ac5-4a50-a465-6aaad0df92fd
+langcode: en
+status: true
+dependencies: {  }
+id: services
+label: Services
+icon_uuid: null
+icon_default: null
+description: 'Create Service with tabbing'
+behavior_plugins: {  }

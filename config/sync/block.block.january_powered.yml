@@ -1,0 +1,22 @@
+uuid: 60ac9bfa-8f53-4580-b632-84de9b477359
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - january
+_core:
+  default_config_hash: X91bxdwX7Abq_MbvTd1S2jlBxd2iTo4HEvOjOvvpUZY
+id: january_powered
+theme: january
+region: footer_bottom
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Dotsquares'
+  label_display: '0'
+  provider: system
+visibility: {  }

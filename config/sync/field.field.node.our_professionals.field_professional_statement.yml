@@ -1,0 +1,21 @@
+uuid: 32cac9b1-30fc-48e1-b5ec-b82a316e3409
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_professional_statement
+    - node.type.our_professionals
+  module:
+    - text
+id: node.our_professionals.field_professional_statement
+field_name: field_professional_statement
+entity_type: node
+bundle: our_professionals
+label: 'Professional statement'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

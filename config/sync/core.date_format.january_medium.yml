@@ -1,0 +1,13 @@
+uuid: 7e130e1f-30cd-43ab-b3ae-649e50b9cb03
+langcode: en
+status: true
+dependencies:
+  enforced:
+    theme:
+      - january
+_core:
+  default_config_hash: Vr5EVlxCrQNtZa9rcw8QyF69JCbMUf1XD8Ox1WF6CN8
+id: january_medium
+label: 'january Medium'
+locked: false
+pattern: 'j  F,  Y'

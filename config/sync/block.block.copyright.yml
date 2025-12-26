@@ -1,0 +1,25 @@
+uuid: 7c868632-1387-4533-bedb-85542bb17ddd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fd042b9a-c946-4987-baac-0f190c58a6e1'
+  module:
+    - block_content
+  theme:
+    - january
+id: copyright
+theme: january
+region: footer_bottom
+weight: -11
+provider: null
+plugin: 'block_content:fd042b9a-c946-4987-baac-0f190c58a6e1'
+settings:
+  id: 'block_content:fd042b9a-c946-4987-baac-0f190c58a6e1'
+  label: copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

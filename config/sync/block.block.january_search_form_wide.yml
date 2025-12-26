@@ -1,0 +1,23 @@
+uuid: 1bb0279a-2f50-4b20-84ca-49f4dba25568
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - january
+_core:
+  default_config_hash: cyE4tdq4rTNhvHa_svlmr1_bmPAdVxuM1TXanFCK124
+id: january_search_form_wide
+theme: january
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

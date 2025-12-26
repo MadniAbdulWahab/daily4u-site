@@ -1,0 +1,22 @@
+uuid: ff52b05b-62cd-4d05-a0ef-0fe58dfad2c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - january
+_core:
+  default_config_hash: joZ_XGeByYnTX6InAO74TM-dAn9MG6a2T5BmUQJOuJg
+id: january_help
+theme: january
+region: content_above
+weight: -9
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

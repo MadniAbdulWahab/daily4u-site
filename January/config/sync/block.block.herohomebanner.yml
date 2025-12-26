@@ -1,0 +1,30 @@
+uuid: eab4d47d-6f27-4487-b045-7219ca4b51f6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero_banner:39c35570-36c7-4635-b909-6d2605797713'
+  module:
+    - block_content
+    - system
+  theme:
+    - january
+id: herohomebanner
+theme: january
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:39c35570-36c7-4635-b909-6d2605797713'
+settings:
+  id: 'block_content:39c35570-36c7-4635-b909-6d2605797713'
+  label: 'Welcome to January Theme'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

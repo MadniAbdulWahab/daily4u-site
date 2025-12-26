@@ -1,0 +1,34 @@
+uuid: 71c6d56e-3918-4160-a8bd-fd0ed41c98fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_vision.field_body
+    - field.field.paragraph.our_vision.field_title
+    - paragraphs.paragraphs_type.our_vision
+  module:
+    - text
+id: paragraph.our_vision.default
+targetEntityType: paragraph
+bundle: our_vision
+mode: default
+content:
+  field_body:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,25 @@
+uuid: e6433905-fc72-4765-ba08-a4dcf9132366
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:02904ac6-5de0-4c4c-8eca-74816924dd19'
+  module:
+    - block_content
+  theme:
+    - january
+id: subscribeus
+theme: january
+region: footer_third
+weight: -8
+provider: null
+plugin: 'block_content:02904ac6-5de0-4c4c-8eca-74816924dd19'
+settings:
+  id: 'block_content:02904ac6-5de0-4c4c-8eca-74816924dd19'
+  label: 'Subscribe Us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

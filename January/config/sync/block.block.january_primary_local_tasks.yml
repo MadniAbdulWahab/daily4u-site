@@ -1,0 +1,22 @@
+uuid: d0fbec68-a597-4b4d-92f6-f9c9defbca65
+langcode: en
+status: true
+dependencies:
+  theme:
+    - january
+_core:
+  default_config_hash: 9AGS3LRX058dr47d6itujy8Bf49wqfDEtJAfmxC1SQs
+id: january_primary_local_tasks
+theme: january
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

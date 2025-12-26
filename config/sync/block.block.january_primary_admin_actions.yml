@@ -1,0 +1,20 @@
+uuid: f1f78a14-346f-4738-8f04-44e0358454e3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - january
+_core:
+  default_config_hash: 89AVSmMS5kal33s0g9LicW5_nH5CRxYFXPUlHOpQkDE
+id: january_primary_admin_actions
+theme: january
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

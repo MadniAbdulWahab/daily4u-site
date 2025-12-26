@@ -1,0 +1,8 @@
+uuid: 922e868d-b25d-4187-b444-f01be55f8b3e
+langcode: en
+status: true
+dependencies: {  }
+id: services
+label: 'Services with tabbing'
+revision: 0
+description: 'Create service block with tabbing'

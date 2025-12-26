@@ -1,0 +1,25 @@
+uuid: b218806f-86b5-46b5-9bca-fa6f1d2f89ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - january
+_core:
+  default_config_hash: sPdfum_evZiqfD-72x6x1aGsS6-X1DVWU20UXAdFYd0
+id: january_site_branding
+theme: january
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

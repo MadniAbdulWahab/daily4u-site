@@ -1,0 +1,27 @@
+uuid: 348522f5-0852-4664-a80b-f350739675de
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - january
+_core:
+  default_config_hash: ImMY8OXydwfpcBP-OHO2U68Ogj3UPgvmJoQSMAcvKws
+id: january_main_menu
+theme: january
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

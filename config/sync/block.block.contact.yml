@@ -1,0 +1,33 @@
+uuid: 78b0877c-336e-40d9-adbe-37b9b6a27136
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a68e6b9c-94a9-4004-85a7-4364aa6f86a1'
+  module:
+    - block_content
+    - node
+  theme:
+    - january
+id: contact
+theme: january
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:a68e6b9c-94a9-4004-85a7-4364aa6f86a1'
+settings:
+  id: 'block_content:a68e6b9c-94a9-4004-85a7-4364aa6f86a1'
+  label: Contact
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      case_studies: case_studies

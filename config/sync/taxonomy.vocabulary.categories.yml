@@ -1,0 +1,8 @@
+uuid: 57810fa1-03c0-439c-a85f-7020534d97fe
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Create Blogs Categories'
+weight: 0

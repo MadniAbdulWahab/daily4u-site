@@ -1,0 +1,8 @@
+uuid: 1e150c57-a27d-4089-a1e0-954cec836fdc
+langcode: en
+status: true
+dependencies: {  }
+id: testimonials
+label: Testimonials
+revision: 0
+description: 'Create testimonial slider'

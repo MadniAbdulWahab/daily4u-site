@@ -1,0 +1,8 @@
+uuid: 520d5211-b67f-402b-86f1-5927176d2a51
+langcode: en
+status: true
+dependencies: {  }
+id: hero_banner
+label: 'Hero banner'
+revision: 0
+description: 'Create full width Banner with content'

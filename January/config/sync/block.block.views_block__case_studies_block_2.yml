@@ -1,0 +1,32 @@
+uuid: f55e3b7b-189d-43a6-9dc6-029c0cb6f6a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.case_studies
+  module:
+    - node
+    - views
+  theme:
+    - january
+id: views_block__case_studies_block_2
+theme: january
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:case_studies-block_2'
+settings:
+  id: 'views_block:case_studies-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      case_studies: case_studies

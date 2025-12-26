@@ -1,0 +1,36 @@
+uuid: 42143bad-916a-4b99-981a-203d7448b15d
+langcode: en
+status: true
+dependencies:
+  module:
+    - newsletter_signup_block
+  theme:
+    - january
+id: newslettersignupform
+theme: january
+region: footer_third
+weight: 0
+provider: null
+plugin: newsletter_signup
+settings:
+  id: newsletter_signup
+  label: 'Newsletter Signup Form'
+  label_display: '0'
+  provider: newsletter_signup_block
+  title: ''
+  body:
+    value: ''
+    format: basic_html
+  background_image: null
+  background_image_style: ''
+  background_responsive_image_style: ''
+  show_first_name: 0
+  show_last_name: 0
+  show_email: 1
+  method: POST
+  signup_page: '3'
+  email_placeholder: 'Your Email'
+  submit_text: Subscribe
+  show_checkbox_and_text: 0
+  checkbox_text: 'Yes please keep me updated with news'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 1e3dbeaa-8133-4290-8316-dd4ef04ebcb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - january
+_core:
+  default_config_hash: hAU5ZHRATO2tq6Itow0H-MjH6JedNx_xo7sBXwnzpu4
+id: january_messages
+theme: january
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

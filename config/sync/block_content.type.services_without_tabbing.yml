@@ -1,0 +1,8 @@
+uuid: fc910b64-084c-4592-9e41-fa42edc0984c
+langcode: en
+status: true
+dependencies: {  }
+id: services_without_tabbing
+label: 'Services without tabbing'
+revision: 0
+description: 'Create Services block without tabbing'

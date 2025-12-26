@@ -1,0 +1,8 @@
+uuid: a0a08cfb-5bda-4623-9950-b904ed0df9d2
+langcode: en
+status: true
+dependencies: {  }
+id: our_vision
+label: 'Our Vision'
+revision: 0
+description: 'Create Tabbing with title and body'

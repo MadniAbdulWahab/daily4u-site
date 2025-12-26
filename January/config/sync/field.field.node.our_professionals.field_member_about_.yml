@@ -1,0 +1,21 @@
+uuid: 1d2c12f2-6296-46dc-bbcc-972c0ee36ab7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_member_about_
+    - node.type.our_professionals
+  module:
+    - text
+id: node.our_professionals.field_member_about_
+field_name: field_member_about_
+entity_type: node
+bundle: our_professionals
+label: 'Member About '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

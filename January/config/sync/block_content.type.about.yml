@@ -1,0 +1,8 @@
+uuid: e56c5708-b0b9-4df2-8640-17c9975d7d3d
+langcode: en
+status: true
+dependencies: {  }
+id: about
+label: About
+revision: 0
+description: 'Create a block with image and content'

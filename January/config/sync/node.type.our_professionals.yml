@@ -1,0 +1,18 @@
+uuid: 88b9c303-c72d-4ffd-abfd-f1a580ef7edd
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Our Professionals'
+type: our_professionals
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

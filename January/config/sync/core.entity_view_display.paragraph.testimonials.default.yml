@@ -1,0 +1,50 @@
+uuid: e8179bed-3ee4-4853-8f22-cdba05f88721
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.testimonials.field_customer_designation
+    - field.field.paragraph.testimonials.field_customer_image
+    - field.field.paragraph.testimonials.field_customer_name
+    - field.field.paragraph.testimonials.field_customer_review_message
+    - paragraphs.paragraphs_type.testimonials
+  module:
+    - text
+id: paragraph.testimonials.default
+targetEntityType: paragraph
+bundle: testimonials
+mode: default
+content:
+  field_customer_designation:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_customer_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_customer_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_customer_review_message:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

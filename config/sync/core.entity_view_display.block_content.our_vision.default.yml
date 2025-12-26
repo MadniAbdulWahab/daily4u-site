@@ -1,0 +1,24 @@
+uuid: aaf4eec2-f6d7-4a96-8381-0112d4b6e1fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_vision
+    - field.field.block_content.our_vision.field_our_goal
+  module:
+    - entity_reference_revisions
+id: block_content.our_vision.default
+targetEntityType: block_content
+bundle: our_vision
+mode: default
+content:
+  field_our_goal:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

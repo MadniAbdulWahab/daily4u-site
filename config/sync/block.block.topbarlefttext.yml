@@ -1,0 +1,25 @@
+uuid: 20b2c0ae-0047-48f6-9724-dd2505abde4b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:13610d09-c495-4447-8690-b3e085ac69fb'
+  module:
+    - block_content
+  theme:
+    - january
+id: topbarlefttext
+theme: january
+region: topbar
+weight: 0
+provider: null
+plugin: 'block_content:13610d09-c495-4447-8690-b3e085ac69fb'
+settings:
+  id: 'block_content:13610d09-c495-4447-8690-b3e085ac69fb'
+  label: 'Topbar Left text'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

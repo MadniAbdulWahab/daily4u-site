@@ -1,0 +1,22 @@
+uuid: 1c4db6c5-77ae-4c0b-bcdb-a5c42615ca49
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - january
+_core:
+  default_config_hash: bbj3q0zqgvTZpZ-nbPs2ORGB-ARWgzibhoC3mXCK260
+id: january_content
+theme: january
+region: content
+weight: -11
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

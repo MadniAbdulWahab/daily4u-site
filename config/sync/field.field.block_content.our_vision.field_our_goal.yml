@@ -1,0 +1,37 @@
+uuid: be9bbed5-2ba6-4191-ae9c-8548ef7d2321
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_vision
+    - field.storage.block_content.field_our_goal
+    - paragraphs.paragraphs_type.our_vision
+  module:
+    - entity_reference_revisions
+id: block_content.our_vision.field_our_goal
+field_name: field_our_goal
+entity_type: block_content
+bundle: our_vision
+label: 'Our goal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      our_vision: our_vision
+    negate: 0
+    target_bundles_drag_drop:
+      our_vision:
+        weight: 4
+        enabled: true
+      services:
+        weight: 5
+        enabled: false
+      testimonials:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

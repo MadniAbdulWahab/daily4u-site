@@ -1,0 +1,30 @@
+uuid: f3c6c560-f25a-408a-a597-5066bd2b842e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - search
+  theme:
+    - january
+id: searchform
+theme: january
+region: sidebar
+weight: -11
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+      case_studies: case_studies

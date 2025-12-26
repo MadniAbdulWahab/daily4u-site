@@ -1,0 +1,21 @@
+uuid: 2df24bbc-2edb-4c36-ab74-6ff8eb93c69c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about
+    - field.storage.block_content.field_summery
+  module:
+    - text
+id: block_content.about.field_summery
+field_name: field_summery
+entity_type: block_content
+bundle: about
+label: Summery
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

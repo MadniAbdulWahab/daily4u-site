@@ -1,0 +1,21 @@
+uuid: 59318c0f-1fe4-4412-8bf3-70d20e2828be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_type
+    - node.type.our_professionals
+  module:
+    - options
+id: node.our_professionals.field_job_type
+field_name: field_job_type
+entity_type: node
+bundle: our_professionals
+label: 'Select Job Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
