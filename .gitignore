@@ -26,3 +26,6 @@ web/sites/*/settings*.php
 # Remove ddev envirement
 .ddev/
 
+
+# Exclude January demo folder
+january/
