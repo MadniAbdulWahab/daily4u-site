@@ -161,7 +161,7 @@ Key directories:
 
 ## Notes
 
-* This project started from the January theme demo and was customized for Daily4U branding and content.
+* This project started from the January theme demo and was created for Daily4U branding and content.
 * If you change theme CSS assets (e.g., banner background images), clear cache:
 
 ```bash
