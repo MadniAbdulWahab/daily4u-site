@@ -12,7 +12,6 @@ This repository contains the full Drupal project (codebase + configuration) and 
 * [Key Pages](#key-pages)
 * [Homepage Sections](#homepage-sections)
 * [Local Development (DDEV)](#local-development-ddev)
-* [Database Import](#database-import)
 * [Drupal Admin Access](#drupal-admin-access)
 * [Working With Content](#working-with-content)
 * [Media & Images](#media--images)
@@ -117,108 +116,6 @@ This project is intended to run locally using **DDEV**.
 * DDEV installed
 * WSL (if you are running on Windows)
 
-### Start the project
-
-```bash
-cd ~/projects/daily4u-january-demo
-ddev start
-```
-
-### Install PHP dependencies
-
-```bash
-ddev composer install
-```
-
-If vendor dependencies were removed:
-
-```bash
-rm -rf vendor
-ddev composer install
-```
-
----
-
-## Database Import
-
-A database export is included under `database/`.
-
-Example import command:
-
-```bash
-ddev import-db --file="database/januarydt_2023 (1).sql.gz"
-```
-
-After importing, run:
-
-```bash
-ddev drush updb -y
-ddev drush cr
-```
-
----
-
-## Drupal Admin Access
-
-Generate a one-time admin login link:
-
-```bash
-ddev drush uli
-```
-
-Open the generated URL in your browser to log in as admin.
-
----
-
-## Working With Content
-
-### Edit a page (Basic page)
-
-1. Go to **Content**
-2. Find the page (Home, About, Services, etc.)
-3. Click **Edit**
-4. Update **Title** and **Body**
-5. Save
-
-### Layout Builder (if enabled for specific content)
-
-Some pages/sections may be built using blocks and layout builder settings. In those cases:
-
-* Update the correct **Block content** item
-* Then clear cache if changes do not appear:
-
-```bash
-ddev drush cr
-```
-
----
-
-## Media & Images
-
-### Upload images
-
-* Go to **Content → Media** (or **Content → Files** depending on configuration)
-* Upload the image
-* Use it in blocks/pages as Media Image or via HTML `<img src="...">`
-
-### Get the URL of an uploaded image
-
-Common ways:
-
-* Open the image file from the Media library and copy its public URL
-* Or locate it under:
-
-```
-/sites/default/files/...
-```
-
-Example:
-
-```html
-<img src="/sites/default/files/2025-12/sample3.png" alt="Daily4U image">
-```
-
----
 
 ## Screenshots
 
