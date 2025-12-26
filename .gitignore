@@ -27,5 +27,3 @@ web/sites/*/settings*.php
 .ddev/
 
 
-# Exclude January demo folder
-january/
