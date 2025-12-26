@@ -1,4 +1,3 @@
-````markdown
 # Daily4U — Drupal Website (January Theme Demo, Customized)
 
 Daily4U is a Drupal-based business website built on top of the **January** theme demo and customized to represent the Daily4U brand, services, case studies, and delivery approach. The site is designed as a clean, modern consulting/technology services presence with a strong homepage narrative and dedicated pages for services, team, case studies, and contact.
@@ -9,17 +8,19 @@ This repository contains the full Drupal project (codebase + configuration) and 
 
 ## Contents
 
-- [Website Overview](#website-overview)
-- [Key Pages](#key-pages)
-- [Homepage Sections](#homepage-sections)
-- [Local Development (DDEV)](#local-development-ddev)
-- [Database Import](#database-import)
-- [Drupal Admin Access](#drupal-admin-access)
-- [Working With Content](#working-with-content)
-- [Media & Images](#media--images)
-- [Screenshots](#screenshots)
-- [Project Structure](#project-structure)
-- [Notes](#notes)
+* [Website Overview](#website-overview)
+* [Key Pages](#key-pages)
+* [Homepage Sections](#homepage-sections)
+* [Local Development (DDEV)](#local-development-ddev)
+* [Database Import](#database-import)
+* [Drupal Admin Access](#drupal-admin-access)
+* [Working With Content](#working-with-content)
+* [Media & Images](#media--images)
+* [Screenshots](#screenshots)
+* [Project Structure](#project-structure)
+* [Notes](#notes)
+* [License / Credits](#license--credits)
+* [Important (so your README screenshots don’t break)](#important-so-your-readme-screenshots-dont-break)
 
 ---
 
@@ -27,14 +28,14 @@ This repository contains the full Drupal project (codebase + configuration) and 
 
 **Daily4U** provides digital services delivered with a structured process: discovery, UX, implementation, integrations, and measurable outcomes. The site highlights:
 
-- A high-impact hero area
-- Service categories and delivery offerings
-- Team members (Our Professionals)
-- Case studies (portfolio-style)
-- Partner/value proposition section
-- Testimonials
-- Blog listing (kept optional for now)
-- “How We Work” section (process summary + link to full page)
+* A high-impact hero area
+* Service categories and delivery offerings
+* Team members (Our Professionals)
+* Case studies (portfolio-style)
+* Partner/value proposition section
+* Testimonials
+* Blog listing (optional for now)
+* “How We Work” section (process summary + link to full page)
 
 ---
 
@@ -43,21 +44,29 @@ This repository contains the full Drupal project (codebase + configuration) and 
 The website includes the following main pages:
 
 1. **Home**
-   - Full homepage with hero and business sections.
+
+   * Full homepage with hero and business sections.
 2. **About Us**
-   - Company story and positioning.
+
+   * Company story and positioning.
 3. **Our Services**
-   - Service offerings and details.
+
+   * Service offerings and details.
 4. **Case Studies**
-   - Portfolio-style case studies (cards + detail pages).
+
+   * Portfolio-style case studies (cards + detail pages).
 5. **Our Professionals (Team)**
-   - Team listing with search/sort.
+
+   * Team listing with search/sort.
 6. **How We Work**
-   - Delivery model / process page with structured narrative.
+
+   * Delivery model / process page with structured narrative.
 7. **Contact**
-   - Contact details and inquiry form.
+
+   * Contact details and inquiry form.
 8. **Our Blog**
-   - Optional blog listing (currently not prioritized in README screenshots).
+
+   * Optional blog listing (currently not prioritized in README screenshots).
 
 ---
 
@@ -66,25 +75,35 @@ The website includes the following main pages:
 The homepage is composed of multiple sections (from top to bottom). Each section is meant to be visually consistent with the January theme style, but customized for Daily4U content:
 
 1. **Hero**
-   - “We design, build, and scale digital services—clean architecture, fast delivery, measurable outcomes.”
+
+   * “We design, build, and scale digital services—clean architecture, fast delivery, measurable outcomes.”
 2. **About / Intro**
-   - “Daily4U — Digital services, delivered daily.” + short positioning statement.
+
+   * “Daily4U — Digital services, delivered daily.” + short positioning statement.
 3. **Our Professionals**
-   - Team preview cards + “View More” link to full Team page.
+
+   * Team preview cards + “View More” link to full Team page.
 4. **Our Services**
-   - Service tabs/cards highlighting key offerings (e.g., dashboards/reporting, integrations, UX, delivery).
+
+   * Service tabs/cards highlighting key offerings (e.g., dashboards/reporting, integrations, UX, delivery).
 5. **Case Studies**
-   - Case studies preview grid + link to full Case Studies page.
+
+   * Case studies preview grid + link to full Case Studies page.
 6. **Why partner with Daily4U**
-   - Value proposition bullets + supporting image + link to deeper section/page.
+
+   * Value proposition bullets + supporting image + link to deeper section/page.
 7. **Testimonials**
-   - Customer quotes / proof section.
+
+   * Customer quotes / proof section.
 8. **Our Blog**
-   - Blog preview cards (can be replaced or redesigned later if needed).
+
+   * Blog preview cards (can be replaced or redesigned later if needed).
 9. **How We Work (Process Promo)**
-   - Process teaser block + CTA to full “How We Work” page.
+
+   * Process teaser block + CTA to full “How We Work” page.
 10. **Footer**
-   - Quick links, subscription, and contact information.
+
+* Quick links, subscription, and contact information.
 
 ---
 
@@ -93,16 +112,17 @@ The homepage is composed of multiple sections (from top to bottom). Each section
 This project is intended to run locally using **DDEV**.
 
 ### Prerequisites
-- Docker installed and running
-- DDEV installed
-- WSL (if you are running on Windows)
+
+* Docker installed and running
+* DDEV installed
+* WSL (if you are running on Windows)
 
 ### Start the project
 
 ```bash
 cd ~/projects/daily4u-january-demo
 ddev start
-````
+```
 
 ### Install PHP dependencies
 
@@ -167,9 +187,9 @@ Some pages/sections may be built using blocks and layout builder settings. In th
 * Update the correct **Block content** item
 * Then clear cache if changes do not appear:
 
-  ```bash
-  ddev drush cr
-  ```
+```bash
+ddev drush cr
+```
 
 ---
 
@@ -188,9 +208,9 @@ Common ways:
 * Open the image file from the Media library and copy its public URL
 * Or locate it under:
 
-  ```
-  /sites/default/files/...
-  ```
+```
+/sites/default/files/...
+```
 
 Example:
 
@@ -208,7 +228,7 @@ Screenshots are stored in:
 docs/screenshots/
 ```
 
-This README includes **section-level screenshots** to document the homepage composition. Blog screenshots are intentionally skipped as requested.
+This README includes **section-level screenshots** to document the homepage composition. Blog screenshots are intentionally skipped.
 
 > Note: If you do not yet have a specific section screenshot, you can add it later and keep the same filename.
 
@@ -272,8 +292,6 @@ This README includes **section-level screenshots** to document the homepage comp
 
 ![Contact](docs/screenshots/contact.png)
 
-> If you want, I can also provide a simple script/command list to generate the section screenshots from `home_full.png` (crop into multiple files) — but only if you want automated cropping.
-
 ---
 
 ## Project Structure
@@ -302,9 +320,10 @@ Key directories:
 * This project started from the January theme demo and was customized for Daily4U branding and content.
 * If you change theme CSS assets (e.g., banner background images), clear cache:
 
-  ```bash
-  ddev drush cr
-  ```
+```bash
+ddev drush cr
+```
+
 * If a change “doesn’t show”, it is almost always one of:
 
   * Cache not cleared
@@ -319,35 +338,29 @@ Key directories:
 * Theme: January (customized for Daily4U).
 * Daily4U content in this repository is for project/demo use.
 
-```
+---
 
 ## Important (so your README screenshots don’t break)
+
 Right now, your folder `docs/screenshots/` contains:
 
-- `about.png`
-- `blogs.png` (you said we can skip it)
-- `case-studies.png`
-- `contact.png`
-- `home_full.png`
-- `how-we-work-page.png`
-- `services.png`
-- `team.png`
+* `about.png`
+* `blogs.png` (skipped in README)
+* `case-studies.png`
+* `contact.png`
+* `home_full.png`
+* `how-we-work-page.png`
+* `services.png`
+* `team.png`
 
 But the README above also references **section screenshots** like:
 
-- `docs/screenshots/home_about.png`
-- `docs/screenshots/home_professionals.png`
-- `docs/screenshots/home_services.png`
-- `docs/screenshots/home_case_studies.png`
-- `docs/screenshots/home_why_partner.png`
-- `docs/screenshots/home_testimonials.png`
-- `docs/screenshots/home_how_we_work.png`
+* `docs/screenshots/home_about.png`
+* `docs/screenshots/home_professionals.png`
+* `docs/screenshots/home_services.png`
+* `docs/screenshots/home_case_studies.png`
+* `docs/screenshots/home_why_partner.png`
+* `docs/screenshots/home_testimonials.png`
+* `docs/screenshots/home_how_we_work.png`
 
-So you have two options:
-
-1) **Take/crop these section screenshots and save them with those names** (recommended, looks very professional), or  
-2) Remove the section screenshot subsection, and only keep page-level screenshots.
-
-If you want, I can give you a clean set of **ImageMagick commands** to crop `home_full.png` into these section images (fast and consistent).
-::contentReference[oaicite:0]{index=0}
-```
+ 
