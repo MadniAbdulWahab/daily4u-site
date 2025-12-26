@@ -120,7 +120,7 @@ This README includes **page-level** screenshots and also supports **section-leve
   ![Home Why Partner Section](docs/screenshots/home_why_partner.png)
 
 * Testimonials:
-  ![Home Testimonials Section](docs/screenshots/home_testimonials.png)
+  ![Home Testimonials Section](docs/screenshots/home_testimoials.png)
 
 * How We Work:
   ![Home How We Work Section](docs/screenshots/home_how_we_work.png)
