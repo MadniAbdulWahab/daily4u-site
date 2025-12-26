@@ -1,130 +1,103 @@
-# Daily4U — Drupal Website (January Theme)
+# Daily4U — Drupal Website (January Theme Demo, Customized)
 
-Daily4U is a clean, professional multi-page website built with **Drupal** using the **January Theme**.  
-The site is designed for a modern services/tech-consulting brand identity, with structured content pages, reusable sections, and fast content editing through the Drupal admin UI.
+Daily4U is a Drupal-based business website built on top of the **January** theme demo and customized to represent the Daily4U brand, services, case studies, and delivery approach. The site is designed as a clean, modern consulting/technology services presence with a strong homepage narrative and dedicated pages for services, team, case studies, and contact.
 
-This repository contains the full Drupal codebase and the local development configuration used to build and customize the Daily4U website.
-
----
-
-## Tech Stack
-
-- **Drupal** (CMS)
-- **January Theme** (front-end theme)
-- **DDEV** (local dev environment)
-- **PHP + Composer** (dependency management)
-- **MySQL/MariaDB** (database via DDEV)
+This repository contains the full Drupal project (codebase + configuration) and local development setup via **DDEV**.
 
 ---
 
-## Project Goals
+## Contents
 
-- Build a modern, credible services website suitable for portfolio/CV use
-- Keep the site easy to edit using Drupal (pages, sections, media)
-- Maintain a consistent visual style across all pages (hero, typography, spacing)
-- Support growth: case studies, services, team profiles, and insights/blogs
-
----
-
-## Key Features
-
-- Responsive theme-based layout (January Theme)
-- Multi-page structure with consistent branding
-- Reusable sections/blocks for fast page building
-- CTA-driven design (contact and conversion focused)
-- Media management (images uploaded and reused)
-- Professional “trust” content: case studies, testimonials, and process description
+- [Website Overview](#website-overview)
+- [Key Pages](#key-pages)
+- [Homepage Sections](#homepage-sections)
+- [Local Development (DDEV)](#local-development-ddev)
+- [Database Import](#database-import)
+- [Drupal Admin Access](#drupal-admin-access)
+- [Working With Content](#working-with-content)
+- [Media & Images](#media--images)
+- [Screenshots](#screenshots)
+- [Project Structure](#project-structure)
+- [Notes](#notes)
 
 ---
 
-## Site Pages
+## Website Overview
 
-### Home
-The landing page provides a professional overview of Daily4U:
-- Hero section + primary call-to-action
-- “Why partner with Daily4U?” value propositions
-- “How We Work” teaser linking to full process page
-- Services highlights and trust sections
+**Daily4U** provides digital services delivered with a structured process: discovery, UX, implementation, integrations, and measurable outcomes. The site highlights:
 
-### Services
-A structured services overview, tailored for a consulting/digital delivery style offering:
-- Website & CMS delivery (Drupal)
-- UX/UI and content structure
-- Integrations & APIs
-- Automation and workflow improvement
-- Analytics and reporting
-- Ongoing support and sustainment
-
-### How We Work
-A process page that explains delivery from discovery to release:
-- Discovery and scope definition
-- UX and prototype validation
-- Build cycles with checkpoints and QA
-- Launch and continuous improvement
-
-### Case Studies
-Showcases sample engagements and outcomes:
-- Situation → approach → delivery → measurable results
-- Suitable for demonstrating credibility and portfolio impact
-
-### About
-Brand and team credibility page:
-- Company overview
-- Mission / Vision / History sections
-- “What makes us different” narrative
-- Team introduction
-
-### Contact
-Contact and engagement page:
-- Primary CTA for discovery call / inquiry
-- Contact details and next-step guidance
-
-### Blogs / Insights (optional)
-A place for thought leadership, updates, and content marketing.  
-Can also be replaced later with a more domain-fitting page (e.g., “Resources”, “Industries”, “FAQs”).
+- A high-impact hero area
+- Service categories and delivery offerings
+- Team members (Our Professionals)
+- Case studies (portfolio-style)
+- Partner/value proposition section
+- Testimonials
+- Blog listing (kept optional for now)
+- “How We Work” section (process summary + link to full page)
 
 ---
 
-## Screenshots
+## Key Pages
 
-The following screenshots are included in the repository under `docs/screenshots/`.
+The website includes the following main pages:
 
-### Main Pages
+1. **Home**
+   - Full homepage with hero and business sections.
+2. **About Us**
+   - Company story and positioning.
+3. **Our Services**
+   - Service offerings and details.
+4. **Case Studies**
+   - Portfolio-style case studies (cards + detail pages).
+5. **Our Professionals (Team)**
+   - Team listing with search/sort.
+6. **How We Work**
+   - Delivery model / process page with structured narrative.
+7. **Contact**
+   - Contact details and inquiry form.
+8. **Our Blog**
+   - Optional blog listing (currently not prioritized in README screenshots).
 
-- Home  
-  ![Home](docs/screenshots/home_full.png)
+---
 
-- Services  
-  ![Services](docs/screenshots/services.png)
+## Homepage Sections
 
-- How We Work  
-  ![How We Work](docs/screenshots/how-we-work-page.png)
+The homepage is composed of multiple sections (from top to bottom). Each section is meant to be visually consistent with the January theme style, but customized for Daily4U content:
 
-- Case Studies  
-  ![Case Studies](docs/screenshots/case-studies.png)
-
-### Additional Pages
-
-- About  
-  ![About](docs/screenshots/about.png)
-
-- Contact  
-  ![Contact](docs/screenshots/contact.png)
-
-- Blogs / Insights  
-  ![Blogs](docs/screenshots/blogs.png)
+1. **Hero**
+   - “We design, build, and scale digital services—clean architecture, fast delivery, measurable outcomes.”
+2. **About / Intro**
+   - “Daily4U — Digital services, delivered daily.” + short positioning statement.
+3. **Our Professionals**
+   - Team preview cards + “View More” link to full Team page.
+4. **Our Services**
+   - Service tabs/cards highlighting key offerings (e.g., dashboards/reporting, integrations, UX, delivery).
+5. **Case Studies**
+   - Case studies preview grid + link to full Case Studies page.
+6. **Why partner with Daily4U**
+   - Value proposition bullets + supporting image + link to deeper section/page.
+7. **Testimonials**
+   - Customer quotes / proof section.
+8. **Our Blog**
+   - Blog preview cards (can be replaced or redesigned later if needed).
+9. **How We Work (Process Promo)**
+   - Process teaser block + CTA to full “How We Work” page.
+10. **Footer**
+   - Quick links, subscription, and contact information.
 
 ---
 
 ## Local Development (DDEV)
 
+This project is intended to run locally using **DDEV**.
+
 ### Prerequisites
-- Docker Desktop / Docker Engine
+- Docker installed and running
 - DDEV installed
-- Git
-- (Optional) mkcert for local HTTPS trust
+- WSL (if you are running on Windows)
 
 ### Start the project
-From the project root:
+
 ```bash
+cd ~/projects/daily4u-january-demo
 ddev start
