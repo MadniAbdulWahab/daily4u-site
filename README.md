@@ -1,4 +1,4 @@
-## Portfolio Project — Daily4U Drupal Website (January Theme Demo, Customized)
+## Daily4U Drupal Website
 
 Daily4U is a Drupal-based business website built on top of the **January** theme demo and customized to represent the Daily4U brand, services, case studies, and delivery approach. The site presents a clean, modern consulting/technology services presence with a strong homepage narrative and dedicated pages for services, team, case studies, and contact.
 
