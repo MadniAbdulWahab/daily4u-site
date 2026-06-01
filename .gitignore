@@ -29,3 +29,12 @@ web/sites/*/settings*.php
 
 # Exclude January demo folder
 january/
+
+/vendor/
+/web/core/
+/web/sites/default/files/css/
+/web/sites/default/files/js/
+/web/sites/default/files/php/
+/web/sites/default/files/styles/
+/web/sites/default/settings.php
+/.ddev/.downloads/
